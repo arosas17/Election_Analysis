@@ -34,38 +34,30 @@ import os
 
 file_to_load = os.path.join('Resources', 'election_results.csv')
 
+# Open the election results and read the file
+
+# with open(file_to_load) as election_data:
+    
+#      print(election_data)
+
+
+
+
+
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 
-# open election results and read file
+# Using the open() function with the "w" mode we will write data to the file.
+open(file_to_save, 'w')
 
-with open(file_to_load) as election_data:
+# Use the open statement to open the file as a text file.
+outfile = open(file_to_save, "w")
 
-     #read the fie obj with the reader function
-     file_reader = csv.reader(election_data)
-
-     # #print each row in the CSV file
-     # for row in file_reader:
-     #      print(row)
-
-     #print the header row
-     headers = next(file_reader)
-     print(headers)
-
-  # Print each row in the CSV file.
+# Write three countries to the file
+outfile.write("Countries in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
 
 
-# # Using the open() function with the "w" mode we will write data to the file.
-# open(file_to_save, 'w')
+# Close the file
 
-# # Use the open statement to open the file as a text file.
-# outfile = open(file_to_save, "w")
-
-# # Write three countries to the file
-# outfile.write("Countries in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
-
-
-# # Close the file
-
-# outfile.close()
+outfile.close()
