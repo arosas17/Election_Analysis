@@ -4,6 +4,23 @@
 
 'Explain the purpose of this election audit analysis.
 
+A task was given by a Calarado Board of Elections employee in order to create a python program that may tally election result of a local congresstional election.
+
+The orginal design of this file was meant to obtain:
+
+  * The total votes cast
+  * The list of candidates
+  * The total votes per candidate
+  * The percentage of votes per candidate
+  * The winner of the election
+
+However, in addition to the orginal design, the election commission requestion more information:
+  
+  * The voter turnout per county
+  * The percentage of voters per county
+  * The county with the highest voter turnout
+  
+To perform these tasks, Python version 3.7 (64 bit) was used; we were also given the list of the election results to work with (located in resources folder).
 
 
 ## Election-Audit Results 
