@@ -2,8 +2,6 @@
 
 ## Overview of Election Audit
 
-'Explain the purpose of this election audit analysis.
-
 A task was given by a Calarado Board of Elections employee in order to create a python program that may tally election result of a local congresstional election.
 
 The orginal design of this file was meant to obtain:
@@ -20,14 +18,29 @@ However, in addition to the orginal design, the election commission requestion m
   * The percentage of voters per county
   * The county with the highest voter turnout
   
-To perform these tasks, Python version 3.7 (64 bit) was used; we were also given the list of the election results to work with (located in resources folder).
+To perform these tasks, Python version 3.7 (64 bit) and Visual Studio Code version 1.69.1 were used; we were also given the list of the election results to work with (located in resources folder).
 
 
 ## Election-Audit Results 
 
+Based on the results recieved:
+
+* There was a total of 369,711 votes casted in this election.
+
+* The candidates are:
+     - Chareles Casper Stockham
+     - Diana DeGette
+     - Raymon Anthony Doane
+
+* The candidates' vote results are as follow:
+     - Chareles Casper Stockham recieved 23.0% of the votes, totaling 85,213 votes.
+     - Diana DeGette recieved 73.8% of the votes, totaling 272,892 votes.
+     - Raymon Anthony Doane recieved 3.1% of the votes, totaling 11,606 votes.
+
+* The winner is Diana DeGette who recieved 73.8% of the votes, a vote count of 272,892.
+
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-How many votes were cast in this congressional election?
 
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
