@@ -23,35 +23,29 @@ To perform these tasks, Python version 3.7 (64 bit) and Visual Studio Code versi
 
 ## Election-Audit Results 
 
-Based on the results recieved:
+Based on the votes recieved:
 
 * There was a total of 369,711 votes casted in this election.
+
+* The counties' contribution in this election are:
+     - Jefferson county: contributing 10.5%, totaling 38,855 of the votes.
+     - Denver county: contributing 82.8%, totaling 306,055 of the votes.
+     - Arapahoe county: contributing 6.7%, totaling 24,801 of the votes.
+
+* The largest county turnout is Denver, contributing 82.8% of the votes, casting 306,055 total votes.
 
 * The candidates are:
      - Chareles Casper Stockham
      - Diana DeGette
      - Raymon Anthony Doane
 
-* The candidates' vote results are as follow:
-     - Chareles Casper Stockham recieved 23.0% of the votes, totaling 85,213 votes.
-     - Diana DeGette recieved 73.8% of the votes, totaling 272,892 votes.
-     - Raymon Anthony Doane recieved 3.1% of the votes, totaling 11,606 votes.
+* The candidates' vote results are as follows:
+     - Chareles Casper Stockham: recieved 23.0% of the votes, totaling 85,213 votes.
+     - Diana DeGette: recieved 73.8% of the votes, totaling 272,892 votes.
+     - Raymon Anthony Doane: recieved 3.1% of the votes, totaling 11,606 votes.
 
 * The winner is Diana DeGette who recieved 73.8% of the votes, a vote count of 272,892.
 
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-
-
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-
-Which county had the largest number of votes?
-
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-
 ## Summary
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
-Deliverable 3 Requirements
+Though this audit is useful now, there are a few improvements that may allow it to better address other elections. One suggestion would be to take into account larger or smaller election. In order to do this, diffrent size of area would need to be taken into account such as states for a larger election and zip codes for smaller elections. In addition to this, the diffrent ballot types so that the more popular ballot types may be determined. This could be useful on deciding which ballots are popular and may be used on how to proceed with future elections.
